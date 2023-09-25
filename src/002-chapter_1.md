@@ -30,3 +30,15 @@ In VSCode user settings JSON:
 
 }
 ```
+
+## meta-thought: rabbitholes
+
+Observe above that I am thinking that I should probably use `clap` instead of just reading the simple args as Strings. How to configure clippy, how to get perf graphs.
+
+Those are all rabbitholes that had (almost) nothing to do with actually shipping the sha1 cracker that was the task.
+
+The book nicely addresses this bad behavior: 
+
+> Favor getting things done rather than the perfect design that will never ship.
+
+Don't care if something is "suboptimal" if you do it only once. Fix on repeat.
