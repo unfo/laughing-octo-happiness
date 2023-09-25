@@ -17,3 +17,16 @@ $ sudo time flamegraph -o shacracker.svg -- target/release/sha1_cracker wordlist
 ```
 
 ![Flamegraph example](images/shacracker.svg)
+
+## `clippy` is your friend
+
+In VSCode user settings JSON:
+
+```json
+{
+//...
+    "rust-analyzer.check.command": "clippy",
+//...
+
+}
+```
