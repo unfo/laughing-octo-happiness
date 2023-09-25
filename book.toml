@@ -1,0 +1,6 @@
+[book]
+authors = ["Jan Wikholm"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Coredump: brain daemon"
